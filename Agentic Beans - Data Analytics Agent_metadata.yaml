@@ -169,10 +169,10 @@ industries:
 
 
 # Products featured by the demo.
-products:
-  - bigquery
-  - dataplex
-  - google_agentspace
+# products:
+#   - bigquery
+#   - dataplex
+#   - google_agentspace
 
 
 # Additional tags to support demo discoverability.
