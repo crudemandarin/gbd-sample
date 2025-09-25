@@ -21,7 +21,7 @@ type: application
 
 
 # The name of the demo.
-title: "(DO NOT APPROVE) KeyFrame Media Compliance"
+title: do not approve - new demo name 
 
 
 # A short description of the demo.
@@ -48,7 +48,7 @@ technical_value: This solution demonstrates how to integrate Gemini models and o
 
 # The Googler who owns this demo. This user has edit access to the demo,
 # is the point of contact for the demo, and is responsible for maintaining the demo.
-owner: nilsheuer
+owner: nykolas
 
 
 # [Optional] The Moma Team ID that owns this demo.
