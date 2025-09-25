@@ -149,10 +149,10 @@ industries:
 
 
 # Products featured by the demo.
-products:
-  - cloud_run
-  - gemini_api
-  - video_intelligence_api
+# products:
+#   - cloud_run
+#   - gemini_api
+#   - video_intelligence_api
 
 
 # Additional tags to support demo discoverability.
