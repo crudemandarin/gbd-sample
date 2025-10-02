@@ -145,7 +145,8 @@ featured_artifact_title: KeyFrame Media Compliance
 #    consumer_packaged_goods
 #    supply_chain
 industries:
-  - 1
+  - supply_chain
+  - retail
 
 
 # Products featured by the demo.
