@@ -1,0 +1,176 @@
+
+# File Info
+
+
+file_type: demo
+
+
+# Demo Info
+
+
+# The type of demo.
+# Supported options:
+#    application
+#    blueprint
+#    cloud_console
+#    guided_doc
+#    presentation
+#    prototype
+#    video
+type: application
+
+
+# The name of the demo.
+title: do not approve - sample sample
+
+
+# A short description of the demo.
+thumbnail_summary: KeyFrame is a SaaS application that automates reviews for media content against internal rules, corporate identity and public media regulations. It speeds up an important and usually manual and expensive process in enterprises.
+
+
+
+# [Optional] A summary of the demo's intention. Markdown supported.
+purpose: Enterprises, especially in the B2C space have to adhere to a multitude of internal regulations, but also external guidelines on what they are allowed to show in public advertisement. Internal rules may include tonality, brand guidelines and corporate identity guidelines. External guidelines include elements like child safety, animal welfare, regulations on what constitutes misleading advertisements, etc. This is a time consuming process that has to be conducted in every country a media asset is shown, due to varying local legislation.
+
+
+# [Optional] A summary of the demo's business value. Markdown supported.
+business_value: KeyFrame automates the review process and aids human reviewers through the heavy lifting and tedious checklist process. In a typical enterprise setting this process can take between 3-4 weeks, resulting in significant labor costs and lost revenue due to delayed advertising.
+
+
+# [Optional] A summary of the demo's technical value. Markdown supported.
+technical_value: This solution demonstrates how to integrate Gemini models and other Google ML APIs into a purpose build, secure and scalable frontend, tailored towards the key audience. It also acts as an example of how we can present Google technologies in an accessible customer focused (rather than Google product focused) way with reasonable effort. The initial demo was build within 2 days.
+
+
+
+
+# Demo Attribution
+
+
+# The Googler who owns this demo. This user has edit access to the demo,
+# is the point of contact for the demo, and is responsible for maintaining the demo.
+owner: nykolas
+
+
+# [Optional] The Moma Team ID that owns this demo.
+# Displayed as an owner of the demo for attribution.
+# Moma Teams IDs can be found in the Team Page URL.
+# Example: https://moma.corp.google.com/team/1234 --> ID = 1234
+# team_owner:
+
+
+# [Optional] Googlers and Moma Teams that contributed to this demo.
+# Contributors are listed on the demo page for attribution.
+# contributors:
+
+
+# [Optional] Specify a channel ID to add this demo to a channel.
+# The owner of the demo must be a member of the channel.
+# Channel IDs can be found in the Channel Page URL.
+# Example: https://cloud-demo-hub.corp.google.com/channels/123 --> ID = 123
+# channel_id:
+
+
+
+
+# Demo Assets
+
+
+# [Optional] List URLs to images that will be displayed on the demo.
+# The first image is used as the demo's thumbnail.
+# You may only choose up to 10 images.
+# Images must have a format of PNG or JPG.
+images:
+  - https://storage.cloud.google.com/demo-hub-images/1757427667.png
+  - https://storage.cloud.google.com/demo-hub-images/1757428667.png
+  - https://storage.cloud.google.com/demo-hub-images/1757428671.png
+  - https://storage.cloud.google.com/demo-hub-images/1757428675.png
+  - https://storage.cloud.google.com/demo-hub-images/1757427673.png
+  - https://storage.cloud.google.com/demo-hub-images/1757427677.png
+
+
+# [Optional] Provide the link to your demo automation folder on go/demos GOB repo.
+# See go/demo-automation-guide for more information.
+# click_to_deploy_path:
+
+
+
+#  A link to instructions on how to use the demo.
+demo_guide: https://docs.google.com/document/d/1A-QqvHhi3r1IyiLFpnWmaOouOirgBshpfjjg14H5prw/edit?resourcekey=0-mmtG02jX8_lqu-V6lfVLuw&tab=t.0
+
+
+# [Optional] Assets belonging to the demo, such as a website, video, code repository, etc.
+artifacts:
+- title: BCAP Code
+  type: document
+  link: https://www.asa.org.uk/static/40293b82-443a-4416-9555ff5259585538/796251eb-e085-4b64-96e40d525f90aeb9/The-BCAP-Code.pdf
+- title: KeyFrame Media Compliance
+  type: live_application
+  link: https://app.dev.keyframe.datahulk.io/
+
+
+# [Optional] Designate an asset as the demo's key asset.
+#
+# This asset will be featured as a button on the top of the demo's page.
+# Artifact Title must match to one of the artifacts listed in `artifacts`.
+featured_artifact_title: KeyFrame Media Compliance
+
+
+# [Optional] Feature a supporting video. This video will be
+# embedded in its own section on the demo's page.
+#
+# Artifact Title must match to one of the artifacts listed in `artifacts`.
+# Artifact URL must be a YouTube, Drive, Broadcast, or Screencast link.
+# featured_video_artifact_title:
+
+
+
+
+# Demo Metadata
+# For industries, and products, IDs can be found at <URL>.
+
+
+# Relevant industries.
+# Supported options:
+#    all
+#    retail
+#    healthcare_life_services
+#    financial_services
+#    telecommunications
+#    media_entertainment
+#    public_sector_government
+#    public_sector
+#    manufacturing
+#    education
+#    gaming
+#    consumer_packaged_goods
+#    supply_chain
+industries:
+  - supply_chain
+  - retail
+
+
+# Products featured by the demo.
+products:
+  - cloud_run
+  - gemini_api
+  - video_intelligence_api
+
+
+# Additional tags to support demo discoverability.
+tags:
+  - media
+  - compliance
+  - video
+  - enterprise
+  - advertisement
+  - regulations
+
+
+# Add restriction labels if one or more of these options are applicable.
+# Supported options:
+#    restricted       Data may be confidential. Present and share to customer
+#                     at your own discretion under NDA or other applicable restrictions.
+#    not_anonymized   Contains info or data of specific customer.
+#                     MUST anonymize before sharing or presenting to customer.
+content_restriction_labels:
+  - external
